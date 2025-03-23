@@ -8,6 +8,7 @@ draw=[] # [x,y,color]
 cap=cv2.VideoCapture(0)
 def findPen(img):
     hsv=cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    #迴圈次數隨顏色數量改變
     for i in range(len(color)):
         # hsv最低門檻值和最高門檻值(判斷顏色)
         lower=np.array(color[i][:3])
