@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Blue Red
-color=[[90,105,100,179,255,255],[0,186,112,8,255,255]]
+color=[[100,172,81,117,255,182],[0,220,165,15,255,250]]
 pencolor=[[255,0,0],[0,0,255]]
 draw=[] # [x,y,color]
 cap=cv2.VideoCapture(0)
